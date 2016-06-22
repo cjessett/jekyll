@@ -1,14 +1,20 @@
-name : Foundation5/github pages/Jykill starter
+name : CJ Jessett
 brand : My Site
 description : This is the description of my site
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-6-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
+url : http://cjessett.github.io/jekyll
+
+email : cjessett@gmail.com
+instagram : cjessett
+linkedin : cjessett
+github : cjessett
+
+author : CJ Jessett
+
 analytics : UA-8418273-8
+
 year : 2016
+
 markdown : kramdown
 exclude :
   - node_modules
