@@ -5,10 +5,10 @@ description: this is my blog
 keywords: cj jessett, cjessett, blog
 ---
 
-<main class="small-12 medium-8 medium-offset-2 large-6 large-offset-3 end columns">
-{% for post in site.posts %}
-	
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-
-{% endfor %}
-</main>
+<ul>
+	{% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
