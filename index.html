@@ -23,4 +23,13 @@ keywords: cj jessett, landing page
     <li><a href="https://instagram.com/{{ site.instagram }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
     <li><a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i></a></li>
   </ul>
+
+  <h3>Latest posts from my blog</h3>
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
 </main>
