@@ -25,7 +25,7 @@ keywords: 'cj jessett, landing page'
 
   <h3>Latest from my <a href="/blog/index.html">blog</a></h3>
   <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit: 3 %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
