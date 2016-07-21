@@ -4033,22 +4033,26 @@ table.hover tr:nth-of-type(even):hover {
 
 /***************** end padding and margin settings *************/
 /* custom */
-main {
+body {
   padding-top: 40px; }
-  main h1 {
+  body section#posts {
+    margin-top: 40px; }
+  body nav a {
+    text-decoration: none; }
+  body h1 {
     font-weight: bold;
     margin: .67em 0; }
-  main p {
+  body p {
     font-size: 18px; }
-  main .social {
+  body .social {
     margin-left: -10px;
     list-style: none;
     padding: 20px 0;
     overflow: hidden; }
-    main .social li {
+    body .social li {
       float: left;
       margin-right: 30px; }
-      main .social li .fa {
+      body .social li .fa {
         font-size: 32px;
         color: #404040;
         padding: 10px; }
