@@ -4037,8 +4037,9 @@ body {
   padding-top: 40px; }
   body section#posts {
     margin-top: 40px; }
-  body nav a {
-    text-decoration: none; }
+  body nav li {
+    text-decoration: none;
+    color: black; }
   body h1 {
     font-weight: bold;
     margin: .67em 0; }
